@@ -1,0 +1,12 @@
+[package]
+name = "fil-sppark"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blst = "0.3.10"
+blstrs = { version = "0.6.1", default-features = false }
+sppark = { git = "https://github.com/supranational/sppark" }
+
+[build-dependencies]
+cc = "1.0.79"
